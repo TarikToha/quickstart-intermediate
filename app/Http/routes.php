@@ -28,10 +28,13 @@ Route::group(['middleware' => ['web']], function () {
         return view('welcome');
     })->middleware('guest');
 
-    Route::get('/tasks', 'TaskController@index');
-    Route::post('/task', 'TaskController@store');
-    Route::delete('/task/{task}', 'TaskController@destroy');
+    Route::get('moodle', 'MoodleController@index');
+    Route::post('moodleLogIn', 'MoodleController@store');
 
+    Route::get('papers', 'PaperController@index');
+    Route::get('download_papers/{name}', 'PaperController@download');
+    Route::post('paper', 'PaperController@store');
+    Route::delete('paper/{paper}', 'PaperController@destroy');
     Route::auth();
 
 });

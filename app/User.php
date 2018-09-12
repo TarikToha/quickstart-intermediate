@@ -2,8 +2,9 @@
 
 namespace App;
 
-use App\Task;
 use Illuminate\Foundation\Auth\User as Authenticatable;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 
 class User extends Authenticatable
 {
@@ -26,10 +27,32 @@ class User extends Authenticatable
     ];
 
     /**
-     * Get all of the tasks for the user.
+     * Get all of the paper for the user.
      */
     public function tasks()
     {
-        return $this->hasMany(Task::class);
+        return $this->hasMany(Paper::class);
+    }
+
+    public function isAdmin()
+    {
+        return $this->user_type == 'admin';
+    }
+
+    public function hasMoodle()
+    {
+        if (!is_null($this->session) && date_diff(date_create($this->session), date_create())->days == 0) {
+            return true;
+        }
+
+        if (!is_null($this->moodle)) {
+            DB::table('users')
+                ->where('id', Auth::id())
+                ->update([
+                    'moodle' => null
+                ]);
+        }
+
+        return false;
     }
 }

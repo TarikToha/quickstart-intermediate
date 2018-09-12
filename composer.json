@@ -6,7 +6,10 @@
     "type": "project",
     "require": {
         "php": ">=5.5.9",
-        "laravel/framework": "5.2.*"
+      "laravel/framework": "5.2.*",
+      "guzzlehttp/guzzle": "~6.0",
+      "ammadeuss/laravel-html-dom-parser": "^1.1",
+      "ms48/laravel-console-progress-bar": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
