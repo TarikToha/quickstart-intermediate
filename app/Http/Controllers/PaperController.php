@@ -132,7 +132,11 @@ class PaperController extends Controller
 
     private function scienceDirect($path)
     {
-        $path = get_meta_tags($path)['citation_pdf_url'];
+        $path = get_meta_tags($path);
+        if (!array_key_exists('citation_pdf_url', $path)){
+            return null;
+        }
+        $path = $path['citation_pdf_url'];
         $data = $this->client->get($path)->getBody();
         $data = preg_split('/<a href=\"/', $data);
         if (count($data) == 1) {
@@ -154,7 +158,11 @@ class PaperController extends Controller
 
     private function springer($path)
     {
-        return urldecode(get_meta_tags($path)['citation_pdf_url']);
+        $path = get_meta_tags($path);
+        if (!array_key_exists('citation_pdf_url', $path)){
+            return null;
+        }
+        return urldecode($path['citation_pdf_url']);
     }
 
     private function fileExists($name)
