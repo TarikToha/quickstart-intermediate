@@ -42,21 +42,6 @@ class PaperController extends Controller
      */
     public function index(Request $request)
     {
-        $all = $this->papers->papers();
-        $db = array();
-        foreach ($all as $paper) {
-            array_push($db, $paper->name);
-        }
-        $all = array_diff(scandir($this->path), array(".", "..", "public", ".gitignore"));
-        $papers = array_diff($all, $db);
-
-        foreach ($papers as $name) {
-            $paper = new Paper;
-            $paper->user_id = Auth::id();
-            $paper->name = $name;
-            $paper->save();
-        }
-
         return view('paper.index', [
             'papers' => $this->papers->papers(),
             'moodle' => Auth::user()->moodle,
@@ -104,14 +89,24 @@ class PaperController extends Controller
         }
         $pdf = $pdf . '.pdf';
 
-        echo "<h1 style='font-family: monospace'>File is being downloaded. Please wait until the download link appears.</h1>";
-        ob_flush();
-        flush();
+        if ($host != 'link.springer.com') {
+            $this->showProgress();
+        }
 
         if (!$this->fileExists($pdf)) {
             set_time_limit(3600);
-            $data = $this->client->get($url)->getBody();
+            if ($host != 'link.springer.com') {
+                $data = $this->client->get($url)->getBody();
+            } else {
+                $data = $this->client->get($url, ['allow_redirects' => ['max' => 2, 'track_redirects' => true]]);
+                if (array_key_exists('X-Guzzle-Redirect-Status-History', $data->getHeaders())) {
+                    return view('common.nopaper');
+                }
+                $this->showProgress();
+                $data = $data->getBody();
+            }
             file_put_contents($this->path . $pdf, $data);
+            $this->savePaperInDB($pdf);
         }
 
         echo '<h1 style="font-family: monospace"><a href="' . url('download_papers/' . $pdf) . '">' . $pdf . '</a></h1>';
@@ -120,7 +115,8 @@ class PaperController extends Controller
     private function iEEE($path)
     {
         $path = preg_split("/\//", $path);
-        $path = $path[count($path) - 2];
+        $count = count($path);
+        $path = empty($path[$count - 1]) ? $path[$count - 2] : $path[$count - 1];
         $path = 'https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=' . $path;
         $data = $this->client->get($path)->getBody();
         $data = preg_split('/<iframe src=\"/', $data);
@@ -133,7 +129,7 @@ class PaperController extends Controller
     private function scienceDirect($path)
     {
         $path = get_meta_tags($path);
-        if (!array_key_exists('citation_pdf_url', $path)){
+        if (!array_key_exists('citation_pdf_url', $path)) {
             return null;
         }
         $path = $path['citation_pdf_url'];
@@ -159,15 +155,31 @@ class PaperController extends Controller
     private function springer($path)
     {
         $path = get_meta_tags($path);
-        if (!array_key_exists('citation_pdf_url', $path)){
+        if (!array_key_exists('citation_pdf_url', $path)) {
             return null;
         }
+
         return urldecode($path['citation_pdf_url']);
     }
 
     private function fileExists($name)
     {
         return $this->papers->paperExists($name);
+    }
+
+    private function showProgress()
+    {
+        echo "<h1 style='font-family: monospace'>File is being downloaded. Please wait until the download link appears.</h1>";
+        ob_flush();
+        flush();
+    }
+
+    private function savePaperInDB($pdf)
+    {
+        $paper = new Paper;
+        $paper->user_id = Auth::id();
+        $paper->name = $pdf;
+        $paper->save();
     }
 
     public function download($name)

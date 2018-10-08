@@ -1,0 +1,1179 @@
+<!DOCTYPE HTML>
+<html lang="en-gb" class="no-js">
+    <head>
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=2.5,user-scalable=yes">
+    <meta name="citation_publisher" content="Springer, Cham"/>
+    <meta name="citation_title" content="Real-Time Detection and Simulation of Abnormal Crowd Behavior"/>
+    <meta name="citation_doi" content="10.1007/978-3-319-60928-7_36"/>
+    <meta name="citation_language" content="en"/>
+    <meta name="citation_abstract_html_url" content="https://link.springer.com/chapter/10.1007/978-3-319-60928-7_36"/>
+    <meta name="citation_fulltext_html_url" content="https://link.springer.com/chapter/10.1007/978-3-319-60928-7_36"/>
+    <meta name="citation_pdf_url" content="https://link.springer.com/content/pdf/10.1007%2F978-3-319-60928-7_36.pdf"/>
+    <meta name="citation_springer_api_url" content="http://api.springer.com/metadata/pam?q=doi:10.1007/978-3-319-60928-7_36&amp;api_key="/>
+    <meta name="citation_firstpage" content="420"/>
+    <meta name="citation_lastpage" content="428"/>
+    <meta name="citation_author" content="Wilbert G. Aguilar"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author_institution" content="Universitat Politècnica de Catalunya"/>
+    <meta name="citation_author_email" content="wgaguilar@espe.edu.ec"/>
+    <meta name="citation_author" content="Marco A. Luna"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author" content="Julio F. Moya"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author" content="Marco P. Luna"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author_institution" content="Purdue University"/>
+    <meta name="citation_author" content="Vanessa Abad"/>
+    <meta name="citation_author_institution" content="Universitat de Barcelona"/>
+    <meta name="citation_author" content="Hugo Ruiz"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author_institution" content="Universidad Politécnica de Madrid"/>
+    <meta name="citation_author" content="Humberto Parra"/>
+    <meta name="citation_author_institution" content="Universidad de las Fuerzas Armadas ESPE"/>
+    <meta name="citation_author_institution" content="Purdue University"/>
+    <meta name="dc.identifier" content="10.1007/978-3-319-60928-7_36"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="description" content="In this paper, we propose an algorithm for abnormal crowd behavior detection and simulation for real time surveillance applications. Our method is a low computational cost approach based on moved..."/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="Real-Time Detection and Simulation of Abnormal Crowd Behavior"/>
+    <meta name="twitter:image" content="https://static-content.springer.com/cover/book/978-3-319-60928-7.jpg"/>
+    <meta name="twitter:image:alt" content="Content cover image"/>
+    <meta name="twitter:site" content="SpringerLink"/>
+    <meta name="twitter:description" content="In this paper, we propose an algorithm for abnormal crowd behavior detection and simulation for real time surveillance applications. Our method is a low computational cost approach based on moved..."/>
+    <meta name="citation_inbook_title" content="Augmented Reality, Virtual Reality, and Computer Graphics"/>
+    <meta name="citation_publication_date" content="2017/6/12"/>
+    <meta name="citation_conference_series_id" content="springer/avr"/>
+    <meta name="citation_conference_title" content="International Conference on Augmented Reality, Virtual Reality and Computer Graphics"/>
+    <meta name="citation_conference_sequence_num" content="4"/>
+    <meta name="citation_conference_abbrev" content="AVR"/>
+    <meta property="og:title" content="Real-Time Detection and Simulation of Abnormal Crowd Behavior"/>
+    <meta property="og:type" content="Paper"/>
+    <meta property="og:url" content="https://link.springer.com/chapter/10.1007/978-3-319-60928-7_36"/>
+    <meta property="og:image" content="https://static-content.springer.com/cover/book/978-3-319-60928-7.jpg"/>
+    <meta property="og:site_name" content="SpringerLink"/>
+    <meta property="og:description" content="In this paper, we propose an algorithm for abnormal crowd behavior detection and simulation for real time surveillance applications. Our method is a low computational cost approach based on moved..."/>
+
+        <title>Real-Time Detection and Simulation of Abnormal Crowd Behavior | SpringerLink</title>
+        <link rel="canonical" href="https://link.springer.com/chapter/10.1007/978-3-319-60928-7_36"/>
+        <link rel="shortcut icon" href="/springerlink-static/1060237170/images/favicon/favicon.ico" />
+<link rel="icon" sizes="16x16 32x32 48x48" href="/springerlink-static/1060237170/images/favicon/favicon.ico">
+<link rel="icon" sizes="16x16" type="image/png" href="/springerlink-static/1060237170/images/favicon/favicon-16x16.png">
+<link rel="icon" sizes="32x32" type="image/png" href="/springerlink-static/1060237170/images/favicon/favicon-32x32.png">
+<link rel="icon" sizes="48x48" type="image/png" href="/springerlink-static/1060237170/images/favicon/favicon-48x48.png">
+<link rel="apple-touch-icon" href="/springerlink-static/1060237170/images/favicon/app-icon-iphone@3x.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/springerlink-static/1060237170/images/favicon/ic_launcher_hdpi.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/springerlink-static/1060237170/images/favicon/app-icon-ipad.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/springerlink-static/1060237170/images/favicon/app-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/springerlink-static/1060237170/images/favicon/app-icon-iphone@2x.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/springerlink-static/1060237170/images/favicon/ic_launcher_xxhdpi.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/springerlink-static/1060237170/images/favicon/app-icon-ipad@2x.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/springerlink-static/1060237170/images/favicon/app-icon-iphone@3x.png" />
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/springerlink-static/1060237170/images/favicon/ic_launcher_xxhdpi.png">
+        <link rel="dns-prefetch" href="//fonts.gstatic.com" />
+<link rel="dns-prefetch" href="//fonts.googleapis.com" />
+<link rel="dns-prefetch" href="//google-analytics.com" />
+<link rel="dns-prefetch" href="//www.google-analytics.com" />
+<link rel="dns-prefetch" href="//www.googletagservices.com" />
+<link rel="dns-prefetch" href="//www.googletagmanager.com" />
+<link rel="dns-prefetch" href="//static-content.springer.com" />
+        <link rel="stylesheet" href="/springerlink-static/1060237170/css/basic.css" media="screen">
+<link rel="stylesheet" href="/springerlink-static/1060237170/css/styles.css" class="js-ctm" media="only screen and (-webkit-min-device-pixel-ratio:0) and (min-color-index:0), (-ms-high-contrast: none), only all and (min--moz-device-pixel-ratio:0) and (min-resolution: 3e1dpcm)">
+<link rel="stylesheet" href="/springerlink-static/1060237170/css/print.css" media="print">
+
+
+            <script type="text/javascript">
+        window.Krux||((Krux=function(){Krux.q.push(arguments);}).q=[]);
+        var dataLayer = [{
+                'GA Key':"UA-26408784-1",
+                'Features':["leaderboardadverts","abtesting","eventtracker"],
+                'Event Category':"Conference Paper",
+                'Open Access':"N",
+                'Labs':"Y",
+                'DOI':"10.1007/978-3-319-60928-7_36",
+                'VG Wort Identifier':"pw-vgzm.415900-10.1007-978-3-319-60928-7_36",
+                'HasAccess':"N",
+                'Full HTML':"N",
+                'Has Body':"Y",
+                'Static Hash':"1060237170",
+                'Has Preview':"N",
+                'user':{"license":{"businessPartnerID":["2000503839","3000182891","3000995085"],"businessPartnerIDString":"2000503839|3000182891|3000995085"}},
+                'content':{"serial":{"eissn":"1611-3349","pissn":"0302-9743"},"book":{"seriesTitle":"Lecture Notes in Computer Science","eisbn":"978-3-319-60928-7","pisbn":"978-3-319-60927-0","bookProductType":"Proceedings","seriesId":"558","title":"Augmented Reality, Virtual Reality, and Computer Graphics","doi":"10.1007/978-3-319-60928-7"},"chapter":{"doi":"10.1007/978-3-319-60928-7_36"},"category":{"pmc":{"primarySubject":"Computer Science","primarySubjectCode":"I","secondarySubjects":{"4":"Computer Communication Networks","5":"Software Engineering","1":"Computer Imaging, Vision, Pattern Recognition and Graphics","2":"User Interfaces and Human Computer Interaction","3":"Artificial Intelligence (incl. Robotics)"},"secondarySubjectCodes":{"4":"I13022","5":"I14029","1":"I22005","2":"I18067","3":"I21017"}},"sucode":"SUCO11645"},"type":"ConferencePaper"},
+                'Access Type':"noaccess",
+                'Page':"chapter",
+                'Bpids':"2000503839, 3000182891, 3000995085",
+                'Bpnames':"Bangladesh Academy of Sciences, Bangladesh University of Engineering and Technology (BUET), Bangladesh UGC Consortium",
+                'SubjectCodes':"SCI, SCI22005, SCI18067, SCI21017, SCI13022, SCI14029",
+                'session':{"authentication":{"loginStatus":"N"},"attributes":{"edition":"academic"}},
+                'eventTrackerBaseUrl':"https://event-tracker.springernature.com",
+                'Keywords':"HAAR, HOG, LBP, Saliency maps, People detection, Cascade classifiers, UAVs",
+                'Country':"BD",
+                'ConferenceSeriesId':"avr",
+
+                    'doi': "10.1007-978-3-319-60928-7_36",
+                    'kwrd': ["HAAR","HOG","LBP","Saliency_maps","People_detection","Cascade_classifiers","UAVs"],
+                    'pmc': ["I","I22005","I18067","I21017","I13022","I14029"],
+                    'BPID': ["2000503839","3000182891","3000995085"],
+                    'ksg': Krux.segments,
+                    'kuid': Krux.uid,
+
+        }];
+    </script>
+
+<script type="text/javascript" src="/springerlink-static/1060237170/js/jquery-3.3.1.min.js"></script>
+
+        <script type="text/javascript" src="https://cdn.cookielaw.org/consent/6b2ec9cd-5ace-4387-96d2-963e596401c6.js" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    function OptanonWrapper() {
+        dataLayer.push({
+            'event' : 'onetrustActive'
+        });
+    }
+</script>
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WCF9Z9');</script>
+
+    </head>
+    <body>
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WCF9Z9"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div class="skip-to">
+    <a class="skip-to__link pseudo-focus" href="#main-content">Skip to main content</a>
+</div>
+        <div class="page-wrapper">
+            <noscript>
+    <div class="nojs-banner u-interface">
+        <p>This service is more advanced with JavaScript available, learn more at <a
+                href="http://activatejavascript.org" target="_blank" rel="noopener">http://activatejavascript.org</a>
+        </p>
+    </div>
+</noscript>
+                    <div id="leaderboard" class="leaderboard u-hide" data-component="SpringerLink.GoogleAds" data-namespace="leaderboard">
+            <div class="leaderboard__wrapper">
+                <p class="leaderboard__label">Advertisement</p>
+                <button class="leaderboard__hide" title="Hide this advertisement">Hide</button>
+                <div id="doubleclick-leaderboard-ad" class="leaderboard__ad u-pt-24"></div>
+            </div>
+        </div>
+
+                <header id="header" class="header u-interface">
+        <div class="header__content">
+            <div class="header__menu-container">
+                    <a id="logo" class="site-logo" href="/" title="Go to homepage">
+                <div class="u-screenreader-only">SpringerLink</div>
+    <svg class="site-logo__springer" width="148" height="30" role="img" focusable="false" aria-hidden="true">
+        <image width="148" height="30" alt="" src="/springerlink-static/1060237170/images/png/springerlink.png" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/springerlink-static/1060237170/images/svg/springerlink.svg"></image>
+    </svg>
+
+    </a>
+
+
+                    <nav id="search-container" class="u-inline-block">
+                        <div class="search">
+                            <div class="search__content">
+                                <form class="u-form-single-input" action="/search" method="get" role="search">
+    <label for="search-springerlink">Search SpringerLink</label>
+    <div class="u-relative">
+        <input id="search-springerlink" name="query" type="text" autocomplete="off" value="">
+        <input class="u-hide-text" type="submit" value="Submit" title="Submit">
+        <svg class="u-vertical-align-absolute" width="13" height="13" viewBox="222 151 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+            <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"/>
+        </svg>
+    </div>
+</form>
+                            </div>
+                        </div>
+                    </nav>
+
+                    <nav class="nav-container u-interface">
+    <div class="global-nav__wrapper">
+        <div class="search-button">
+            <a class="search-button__label" href="#search-container">
+                <span class="search-button__title">Search</span><svg width="12" height="12" viewBox="222 151 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" focusable="false" aria-hidden="true" role="presentation">
+                    <path d="M227 159C228.7 159 230 157.7 230 156 230 154.3 228.7 153 227 153 225.3 153 224 154.3 224 156 224 157.7 225.3 159 227 159L227 159 227 159 227 159ZM230 160.1L231.1 159 233.9 161.7C234.2 162.1 234.2 162.6 233.9 162.9 233.6 163.2 233.1 163.2 232.7 162.9L230 160.1 230 160.1 230 160.1 230 160.1ZM227 161L227 161C224.2 161 222 158.8 222 156 222 153.2 224.2 151 227 151 229.8 151 232 153.2 232 156 232 158.8 229.8 161 227 161L227 161 227 161 227 161 227 161Z" stroke="none" fill-rule="evenodd"></path>
+                </svg>
+            </a>
+        </div>
+
+        <ul class="global-nav" data-component="SpringerLink.Menu" data-title="Navigation menu" data-text="Menu">
+            <li>
+                <a href="/">
+                    <span class="u-overflow-ellipsis">Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/contactus">
+                    <span class="u-overflow-ellipsis">Contact us</span>
+                </a>
+            </li>
+
+                <li class="global-nav__logged-out">
+                    <a class="test-login-link" href="//link.springer.com/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%252F978-3-319-60928-7_36">
+                        <span class="u-overflow-ellipsis">Log in</span>
+                    </a>
+                </li>
+
+        </ul>
+    </div> 
+</nav> 
+            </div>
+
+        </div>
+    </header>
+
+            
+
+            <main id="main-content" class="main-wrapper" tabindex="-1">
+                <div class="main-container uptodate-recommendations-off">
+                    <aside class="main-sidebar-left">
+                        <div class="main-sidebar-left__content">
+                            <div class="cover-image test-cover" itemscope>
+                                    <a class="test-cover-link" href="/book/10.1007/978-3-319-60928-7">
+        <span class="u-screenreader-only">Augmented Reality, Virtual Reality, and Computer Graphics</span>
+        <img class="test-cover-image" src="https://media.springernature.com/w306/springer-static/cover/book/978-3-319-60928-7.jpg" itemprop="image" alt=""/>
+    </a>
+
+
+                            </div>
+                        </div>
+                    </aside>
+                    <div class="main-body" data-role="NavigationContainer">
+                        
+
+
+
+                        <article class="main-body__content">
+                            <div xmlns="http://www.w3.org/1999/xhtml" class="FulltextWrapper"><div class="ArticleHeader main-context"><div id="enumeration" class="enumeration">    <div>
+        <a class="gtm-confseries-link" data-test="ConfSeriesLink" href="/conference/avr" >
+            <span data-test="ConfSeriesName"> International Conference on Augmented Reality, Virtual Reality and Computer Graphics</span>
+        </a>
+    </div>
+<p class="test-LocationInConferenceProceeding icon--meta-keyline-before"><span data-test="ConferenceAcronym">AVR 2017</span>: <span class="BookTitle"><a href="/book/10.1007/978-3-319-60928-7" class="gtm-book-link">Augmented Reality, Virtual Reality, and Computer Graphics</a></span><span class="page-numbers-info">
+                pp 420-428</span><span class="u-inline-block u-ml-4"> |
+                <a class="gtm-cite-link" href="#citeas">Cite as</a></span></p></div><div class="MainTitleSection"><h1 class="ChapterTitle" lang="en">Real-Time Detection and Simulation of Abnormal Crowd Behavior</h1></div><div class="authors u-clearfix" data-component="SpringerLink.Authors"><ul class="u-interface u-inline-list authors__title" data-role="AuthorsNavigation"><li><span>Authors</span></li><li><a href="#authorsandaffiliations" class="gtm-tab-authorsandaffiliations">Authors and affiliations</a></li></ul><div class="authors__list" data-role="AuthorsList"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Wilbert G. Aguilar</span><span class="author-information"><span class="authors__contact"><a href="mailto:wgaguilar@espe.edu.ec" title="wgaguilar@espe.edu.ec" itemprop="email" class="gtm-email-author"><img src="/springerlink-static/images/svg/email.svg" height="24" width="24" alt="Email author" /></a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Marco A. Luna</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Julio F. Moya</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Marco P. Luna</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Vanessa Abad</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Hugo Ruiz</span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors__name">Humberto Parra</span></li></ul></div></div><div class="main-context__container" data-component="SpringerLink.ArticleMetrics"><div class="main-context__column"><span><span class="test-render-category">Conference paper</span></span><div class="article-dates"><span class="article-dates__label">First Online: </span><span class="article-dates__first-online"><time datetime="2017-06-08">08 June 2017</time></span></div></div><div class="main-context__column">    <ul id="book-metrics" class="article-metrics u-sansSerif">
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-chapterreaders-count" href="http://www.bookmetrix.com/detail/chapter/c656825e-94a5-4f33-ba8e-7e059b8ec512#readers" target="_blank" rel="noopener"
+                       title="Visit Bookmetrix for full Mendeley reader details" id="chapterreaders-link">
+                            <span id="chapterreaders-count-number" class="test-metric-count c-button-circle gtm-chapterreaders-count">5</span>
+                       <span class="test-metric-name article-metrics__label gtm-chapterreaders-count">Readers</span>
+                    </a>
+            </li>
+            <li class="article-metrics__item">
+                    <a class="article-metrics__link gtm-chapterdownloads-count" href="http://www.bookmetrix.com/detail/chapter/c656825e-94a5-4f33-ba8e-7e059b8ec512#downloads" target="_blank" rel="noopener"
+                       title="Visit Bookmetrix for full download details" id="chapterdownloads-link">
+                            <span id="chapterdownloads-count-number" class="test-metric-count c-button-circle gtm-chapterdownloads-count">1.4k</span>
+                       <span class="test-metric-name article-metrics__label gtm-chapterdownloads-count">Downloads</span>
+                    </a>
+            </li>
+    </ul>
+</div></div><span id="test-SeriesTitle" class="vol-info">
+                Part of the
+                <a class="gtm-book-series-link" href="/bookseries/558">Lecture Notes in Computer Science</a>
+                book series (LNCS, volume 10325)</span></div><section class="Abstract" id="Abs1" tabindex="-1" lang="en"><h2 class="Heading">Abstract</h2><p id="Par1" class="Para">In this paper, we propose an algorithm for abnormal crowd behavior detection and simulation for real time surveillance applications. Our method is a low computational cost approach based on moved pixel density modelling. Using statistical methods, we obtain the model of pixel densities in normal behaviors based on datasets available in the literature. During abnormal anomalous event detection we run a simulation of people motion and save the data for future analysis. We test the execution time of our algorithm for motion detection to validate its usage in fast applications. Finally we validate our method comparing it with other approaches in the literature in two datasets.
+</p></section><div class="KeywordGroup" lang="en"><h2 class="Heading">Keywords</h2><span class="Keyword">HAAR </span><span class="Keyword">HOG </span><span class="Keyword">LBP </span><span class="Keyword">Saliency maps </span><span class="Keyword">People detection </span><span class="Keyword">Cascade classifiers </span><span class="Keyword">UAVs </span></div><div class="note test-pdf-link" id="cobranding-and-download-availability-text"><div id="chapter_no_access_banner">This is a preview of subscription content, <a id="test-login-banner-link" href="/signup-login?previousUrl=https%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%252F978-3-319-60928-7_36">log in</a> to check access.</div></div><div class="article-actions--inline" id="article-actions--inline" data-component="article-actions--inline"></div><section id="Notes" class="Section1 RenderAsSection1"><h2 class="Heading">Notes</h2><div class="content"><section><h3 class="Heading">Acknowledgement</h3><p class="SimplePara">This work is part of the projects VisualNavDrone 2016-PIC-024 and MultiNavCar 2016-PIC-025, from the Universidad de las Fuerzas Armadas ESPE, directed by Dr. Wilbert G. Aguilar.</p></section></div></section><section class="Section1 RenderAsSection1" id="Bib1" tabindex="-1"><h2 class="Heading">References</h2><div class="content"><ol class="BibliographyWrapper"><li class="Citation"><div class="CitationNumber">1.</div><div class="CitationContent" id="CR1">Popoola, O.P., Wang, K.: Video-based abnormal human behavior recognition—a review. IEEE Trans. Syst. Man Cybern. Part C Appl. Rev. <strong class="EmphasisTypeBold ">42</strong>(6), 865–878 (2012)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TSMCC.2011.2178594"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Video-based%20abnormal%20human%20behavior%20recognition%E2%80%94a%20review&amp;author=OP.%20Popoola&amp;author=K.%20Wang&amp;journal=IEEE%20Trans.%20Syst.%20Man%20Cybern.%20Part%20C%20Appl.%20Rev.&amp;volume=42&amp;issue=6&amp;pages=865-878&amp;publication_year=2012"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">2.</div><div class="CitationContent" id="CR2">Lu, C., Shi, J., Jia, J.: Abnormal event detection at 150 fps in matlab. In: Proceeding IEEE International Conference on Computer Vision, pp. 2720–2727 (2013)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Lu%2C%20C.%2C%20Shi%2C%20J.%2C%20Jia%2C%20J.%3A%20Abnormal%20event%20detection%20at%20150%20fps%20in%20matlab.%20In%3A%20Proceeding%20IEEE%20International%20Conference%20on%20Computer%20Vision%2C%20pp.%202720%E2%80%932727%20%282013%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">3.</div><div class="CitationContent" id="CR3">Aguilar, W.G., Luna, M.A., Moya, J.F., Abad, V., Parra, H., Ruiz, H.: Pedestrian detection for UAVs using cascade classifiers with meanshift. In: IEEE 11th International Conference on Semantic Computing (ICSC), pp. 509–514 (2017)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Aguilar%2C%20W.G.%2C%20Luna%2C%20M.A.%2C%20Moya%2C%20J.F.%2C%20Abad%2C%20V.%2C%20Parra%2C%20H.%2C%20Ruiz%2C%20H.%3A%20Pedestrian%20detection%20for%20UAVs%20using%20cascade%20classifiers%20with%20meanshift.%20In%3A%20IEEE%2011th%20International%20Conference%20on%20Semantic%20Computing%20%28ICSC%29%2C%20pp.%20509%E2%80%93514%20%282017%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">4.</div><div class="CitationContent" id="CR4">Mehran, R., Oyama, A., Shah, M.: Abnormal crowd behavior detection using social force model. Comput. Vis. Pattern (2009)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Mehran%2C%20R.%2C%20Oyama%2C%20A.%2C%20Shah%2C%20M.%3A%20Abnormal%20crowd%20behavior%20detection%20using%20social%20force%20model.%20Comput.%20Vis.%20Pattern%20%282009%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">5.</div><div class="CitationContent" id="CR5">Aguilar, W.G., Alulema, D., Limaico, A., Sandoval, D.: Development and verification of a verbal corpus based on natural language for Ecuadorian Dialect. In: IEEE 11th International Conference on Semantic Computing (ICSC), pp. 515–519 (2017)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Aguilar%2C%20W.G.%2C%20Alulema%2C%20D.%2C%20Limaico%2C%20A.%2C%20Sandoval%2C%20D.%3A%20Development%20and%20verification%20of%20a%20verbal%20corpus%20based%20on%20natural%20language%20for%20Ecuadorian%20Dialect.%20In%3A%20IEEE%2011th%20International%20Conference%20on%20Semantic%20Computing%20%28ICSC%29%2C%20pp.%20515%E2%80%93519%20%282017%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">6.</div><div class="CitationContent" id="CR6">Aguilar, W.G., Angulo, C.: Real-time model-based video stabilization for microaerial vehicles. Neural Process. Lett. <strong class="EmphasisTypeBold ">43</strong>(2), 459–477 (2016)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/s11063-015-9439-0"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Real-time%20model-based%20video%20stabilization%20for%20microaerial%20vehicles&amp;author=WG.%20Aguilar&amp;author=C.%20Angulo&amp;journal=Neural%20Process.%20Lett.&amp;volume=43&amp;issue=2&amp;pages=459-477&amp;publication_year=2016"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">7.</div><div class="CitationContent" id="CR7">Aguilar, W.G., Angulo, C.: Real-time video stabilization without phantom movements for micro aerial vehicles. EURASIP J. Image Video Process. <strong class="EmphasisTypeBold ">2014</strong>(1), 46 (2014)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1186/1687-5281-2014-46"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Real-time%20video%20stabilization%20without%20phantom%20movements%20for%20micro%20aerial%20vehicles&amp;author=WG.%20Aguilar&amp;author=C.%20Angulo&amp;journal=EURASIP%20J.%20Image%20Video%20Process.&amp;volume=2014&amp;issue=1&amp;pages=46&amp;publication_year=2014"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">8.</div><div class="CitationContent" id="CR8">Jacques Jr., J.S., Musse, S., Jung, C.: Crowd analysis using computer vision techniques. IEEE Signal Process. Mag. <strong class="EmphasisTypeBold ">27</strong>(5), 66–77 (2010)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Crowd%20analysis%20using%20computer%20vision%20techniques&amp;author=JS.%20Jacques&amp;author=S.%20Musse&amp;author=C.%20Jung&amp;journal=IEEE%20Signal%20Process.%20Mag.&amp;volume=27&amp;issue=5&amp;pages=66-77&amp;publication_year=2010"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">9.</div><div class="CitationContent" id="CR9">Cabras, P., Rosell, J., Pérez, A., Aguilar, W.G., Rosell, A.: Haptic-based navigation for the virtual bronchoscopy. IFAC Proc. <strong class="EmphasisTypeBold ">18</strong>(1), 9638–9643 (2011)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.3182/20110828-6-IT-1002.01843"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Haptic-based%20navigation%20for%20the%20virtual%20bronchoscopy&amp;author=P.%20Cabras&amp;author=J.%20Rosell&amp;author=A.%20P%C3%A9rez&amp;author=WG.%20Aguilar&amp;author=A.%20Rosell&amp;journal=IFAC%20Proc.&amp;volume=18&amp;issue=1&amp;pages=9638-9643&amp;publication_year=2011"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">10.</div><div class="CitationContent" id="CR10">Aguilar, W., Morales, S.: 3D environment mapping using the kinect V2 and path planning based on RRT algorithms. Electronics <strong class="EmphasisTypeBold ">5</strong>(4), 70 (2016)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.3390/electronics5040070"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=3D%20environment%20mapping%20using%20the%20kinect%20V2%20and%20path%20planning%20based%20on%20RRT%20algorithms&amp;author=W.%20Aguilar&amp;author=S.%20Morales&amp;journal=Electronics&amp;volume=5&amp;issue=4&amp;pages=70&amp;publication_year=2016"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">11.</div><div class="CitationContent" id="CR11">Lemercier, S., Jelic, A., Kulpa, R., Hua, J., Fehrenbach, J., Degond, P., Appert-Rolland, C., Donikian, S., Pettré, J.: Realistic following behaviors for crowd simulation. EUROGRAPHICS <strong class="EmphasisTypeBold ">31</strong>(2) (2012)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Lemercier%2C%20S.%2C%20Jelic%2C%20A.%2C%20Kulpa%2C%20R.%2C%20Hua%2C%20J.%2C%20Fehrenbach%2C%20J.%2C%20Degond%2C%20P.%2C%20Appert-Rolland%2C%20C.%2C%20Donikian%2C%20S.%2C%20Pettr%C3%A9%2C%20J.%3A%20Realistic%20following%20behaviors%20for%20crowd%20simulation.%20EUROGRAPHICS%2031%282%29%20%282012%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">12.</div><div class="CitationContent" id="CR12">Raghavendra, R., Cristani, M., Bue, A., Sangineto, E., Murino, V.: Anomaly detection in crowded scenes: a novel framework based on swarm optimization and social force modeling. In: Ali, S., Nishino, K., Manocha, D., Shah, M. (eds.) Modeling, Simulation and Visual Analysis of Crowds. TISVC, vol. 11, pp. 383–411. Springer, New York (2013). doi:<span class="ExternalRef"> <a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-1-4614-8483-7_15"><span class="RefSource">10.1007/978-1-4614-8483-7_15</span></a></span>
+        <span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/978-1-4614-8483-7_15"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Anomaly%20detection%20in%20crowded%20scenes%3A%20a%20novel%20framework%20based%20on%20swarm%20optimization%20and%20social%20force%20modeling&amp;author=R.%20Raghavendra&amp;author=M.%20Cristani&amp;author=A.%20Bue&amp;author=E.%20Sangineto&amp;author=V.%20Murino&amp;pages=383-411&amp;publication_year=2013"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">13.</div><div class="CitationContent" id="CR13">Basharat, A., Gritai, A., Shah, M.: Learning object motion patterns for anomaly detection and improved object detection. In: IEEE Conference on Computer Vision and Pattern Recognition, pp. 1–8 (2008)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Basharat%2C%20A.%2C%20Gritai%2C%20A.%2C%20Shah%2C%20M.%3A%20Learning%20object%20motion%20patterns%20for%20anomaly%20detection%20and%20improved%20object%20detection.%20In%3A%20IEEE%20Conference%20on%20Computer%20Vision%20and%20Pattern%20Recognition%2C%20pp.%201%E2%80%938%20%282008%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">14.</div><div class="CitationContent" id="CR14">Stauffer, C., Grimson, W.E.L.: Learning patterns of activity using real-time tracking. IEEE Trans. Pattern Anal. Mach. Intell. <strong class="EmphasisTypeBold ">22</strong>(8), 747–757 (2000)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/34.868677"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Learning%20patterns%20of%20activity%20using%20real-time%20tracking&amp;author=C.%20Stauffer&amp;author=WEL.%20Grimson&amp;journal=IEEE%20Trans.%20Pattern%20Anal.%20Mach.%20Intell.&amp;volume=22&amp;issue=8&amp;pages=747-757&amp;publication_year=2000"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">15.</div><div class="CitationContent" id="CR15">Mahadevan, V., Li, W., Bhalodia, V., Vasconcelos, N.: Anomaly detection in crowded scenes. In: IEEE Computer Society Conference on Computer Vision and Pattern Recognition, pp. 1975–1981 (2010)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Mahadevan%2C%20V.%2C%20Li%2C%20W.%2C%20Bhalodia%2C%20V.%2C%20Vasconcelos%2C%20N.%3A%20Anomaly%20detection%20in%20crowded%20scenes.%20In%3A%20IEEE%20Computer%20Society%20Conference%20on%20Computer%20Vision%20and%20Pattern%20Recognition%2C%20pp.%201975%E2%80%931981%20%282010%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">16.</div><div class="CitationContent" id="CR16">Wu, S., Moore, B.E., Shah, M.: Chaotic invariants of lagrangian particle trajectories for anomaly detection in crowded scenes. In: Computer Vision and Pattern Recognition, pp. 2054–2060 (2010)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Wu%2C%20S.%2C%20Moore%2C%20B.E.%2C%20Shah%2C%20M.%3A%20Chaotic%20invariants%20of%20lagrangian%20particle%20trajectories%20for%20anomaly%20detection%20in%20crowded%20scenes.%20In%3A%20Computer%20Vision%20and%20Pattern%20Recognition%2C%20pp.%202054%E2%80%932060%20%282010%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">17.</div><div class="CitationContent" id="CR17">Mehran, R., Moore, Brian E., Shah, M.: A streakline representation of flow in crowded scenes. In: Daniilidis, K., Maragos, P., Paragios, N. (eds.) ECCV 2010. LNCS, vol. 6313, pp. 439–452. Springer, Heidelberg (2010). doi:<span class="ExternalRef"> <a target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-642-15558-1_32"><span class="RefSource">10.1007/978-3-642-15558-1_32</span></a></span>
+        <span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1007/978-3-642-15558-1_32"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=A%20streakline%20representation%20of%20flow%20in%20crowded%20scenes&amp;author=R.%20Mehran&amp;author=Brian%20E.%20Moore&amp;author=M.%20Shah&amp;pages=439-452&amp;publication_year=2010"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">18.</div><div class="CitationContent" id="CR18">Ali, S., Shah, M.: A lagrangian particle dynamics approach for crowd flow segmentation and stability analysis. In: Computer Vision and Pattern Recognition 2007 (2007)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Ali%2C%20S.%2C%20Shah%2C%20M.%3A%20A%20lagrangian%20particle%20dynamics%20approach%20for%20crowd%20flow%20segmentation%20and%20stability%20analysis.%20In%3A%20Computer%20Vision%20and%20Pattern%20Recognition%202007%20%282007%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">19.</div><div class="CitationContent" id="CR19">Andrade, E.L., Blunsden, S., Fisher, R.B.: Modelling crowd scenes for event detection. In: 18th International Conference Pattern Recognition, ICPR 2006, vol. 1, pp. 175–178 (2006)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Andrade%2C%20E.L.%2C%20Blunsden%2C%20S.%2C%20Fisher%2C%20R.B.%3A%20Modelling%20crowd%20scenes%20for%20event%20detection.%20In%3A%2018th%20International%20Conference%20Pattern%20Recognition%2C%20ICPR%202006%2C%20vol.%201%2C%20pp.%20175%E2%80%93178%20%282006%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">20.</div><div class="CitationContent" id="CR20">Ke, Y., Sukthankar, R., Hebert, M.: Event detection in crowded videos. In: IEEE 11th International Conference Computer Vision, ICCV 2007, pp. 1–8 (2007)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Ke%2C%20Y.%2C%20Sukthankar%2C%20R.%2C%20Hebert%2C%20M.%3A%20Event%20detection%20in%20crowded%20videos.%20In%3A%20IEEE%2011th%20International%20Conference%20Computer%20Vision%2C%20ICCV%202007%2C%20pp.%201%E2%80%938%20%282007%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">21.</div><div class="CitationContent" id="CR21">Kratz, L., Nishino, K.: Anomaly detection in extremely crowded scenes using spatio-temporal motion pattern models. In: IEEE Conference Computer Vision Pattern Recognition, pp. 1446–1453 (2009)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Kratz%2C%20L.%2C%20Nishino%2C%20K.%3A%20Anomaly%20detection%20in%20extremely%20crowded%20scenes%20using%20spatio-temporal%20motion%20pattern%20models.%20In%3A%20IEEE%20Conference%20Computer%20Vision%20Pattern%20Recognition%2C%20pp.%201446%E2%80%931453%20%282009%29"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">22.</div><div class="CitationContent" id="CR22">Zivkovic, Z., Van Der Heijden, F.: Efficient adaptive density estimation per image pixel for the task of background subtraction. Pattern Recogn. Lett. <strong class="EmphasisTypeBold ">27</strong>(7), 773–780 (2006)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1016/j.patrec.2005.11.005"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Efficient%20adaptive%20density%20estimation%20per%20image%20pixel%20for%20the%20task%20of%20background%20subtraction&amp;author=Z.%20Zivkovic&amp;author=F.%20Heijden&amp;journal=Pattern%20Recogn.%20Lett.&amp;volume=27&amp;issue=7&amp;pages=773-780&amp;publication_year=2006"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">23.</div><div class="CitationContent" id="CR23">Adam, A., Rivlin, E., Shimshoni, I., Reinitz, D.: Robust real-time unusual event detection using multiple fixed-location monitors. IEEE Trans. Pattern Anal. Mach. Intell. <strong class="EmphasisTypeBold ">30</strong>(3), 555–560 (2008)<span class="Occurrences"><span class="Occurrence OccurrenceDOI"><a class="gtm-reference" data-reference-type="CrossRef" target="_blank" rel="noopener" href="https://doi.org/10.1109/TPAMI.2007.70825"><span><span>CrossRef</span></span></a></span><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="http://scholar.google.com/scholar_lookup?title=Robust%20real-time%20unusual%20event%20detection%20using%20multiple%20fixed-location%20monitors&amp;author=A.%20Adam&amp;author=E.%20Rivlin&amp;author=I.%20Shimshoni&amp;author=D.%20Reinitz&amp;journal=IEEE%20Trans.%20Pattern%20Anal.%20Mach.%20Intell.&amp;volume=30&amp;issue=3&amp;pages=555-560&amp;publication_year=2008"><span><span>Google Scholar</span></span></a></span></span></div></li><li class="Citation"><div class="CitationNumber">24.</div><div class="CitationContent" id="CR24">Elhamifar, E., Vidal, R.: Sparse subspace clustering. In: IEEE Conference on Computer Vision and Pattern Recognition, pp. 2790–2797 (2009)<span class="Occurrences"><span class="Occurrence OccurrenceGS"><a target="_blank" rel="noopener" class="google-scholar-link gtm-reference" data-reference-type="Google Scholar" href="https://scholar.google.com/scholar?q=Elhamifar%2C%20E.%2C%20Vidal%2C%20R.%3A%20Sparse%20subspace%20clustering.%20In%3A%20IEEE%20Conference%20on%20Computer%20Vision%20and%20Pattern%20Recognition%2C%20pp.%202790%E2%80%932797%20%282009%29"><span><span>Google Scholar</span></span></a></span></span></div></li></ol></div></section><section class="Section1 RenderAsSection1"><h2 class="Heading" id="copyrightInformation">Copyright information</h2><div class="ArticleCopyright content"><div class="ChapterCopyright">© Springer International Publishing AG 2017</div></div></section><section id="authorsandaffiliations" class="Section1 RenderAsSection1"><h2 class="Heading">Authors and Affiliations</h2><div class="content authors-affiliations u-interface"><ul class="test-contributor-names"><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Wilbert G. Aguilar</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li><li data-affiliation="affiliation-4">4</li><li data-affiliation="affiliation-5">5</li></ul><span class="author-information"><span class="author-information__contact u-icon-before icon--email-before"><a href="mailto:wgaguilar@espe.edu.ec" title="wgaguilar@espe.edu.ec" itemprop="email" class="gtm-email-author">Email author</a></span></span></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Marco A. Luna</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Julio F. Moya</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-2">2</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Marco P. Luna</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-3">3</li><li data-affiliation="affiliation-7">7</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Vanessa Abad</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-6">6</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Hugo Ruiz</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li><li data-affiliation="affiliation-8">8</li></ul></li><li itemscope="" itemtype="http://schema.org/Person" class="u-mb-2 u-pt-4 u-pb-4"><span itemprop="name" class="authors-affiliations__name">Humberto Parra</span><ul class="authors-affiliations__indexes u-inline-list" data-role="AuthorsIndexes"><li data-affiliation="affiliation-1">1</li><li data-affiliation="affiliation-7">7</li></ul></li></ul><ol class="test-affiliations"><li class="affiliation" data-test="affiliation-1" data-affiliation-highlight="affiliation-1" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">1.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Dep. Seguridad y Defensa</span><span itemprop="name" class="affiliation__name">Universidad de las Fuerzas Armadas ESPE</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Sangolquí</span><span itemprop="addressCountry" class="affiliation__country">Ecuador</span></span></span></li><li class="affiliation" data-test="affiliation-2" data-affiliation-highlight="affiliation-2" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">2.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Dep. Eléctrica y Electrónica</span><span itemprop="name" class="affiliation__name">Universidad de las Fuerzas Armadas ESPE</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Sangolquí</span><span itemprop="addressCountry" class="affiliation__country">Ecuador</span></span></span></li><li class="affiliation" data-test="affiliation-3" data-affiliation-highlight="affiliation-3" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">3.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">Dep. Tierra y Construcción</span><span itemprop="name" class="affiliation__name">Universidad de las Fuerzas Armadas ESPE</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Sangolquí</span><span itemprop="addressCountry" class="affiliation__country">Ecuador</span></span></span></li><li class="affiliation" data-test="affiliation-4" data-affiliation-highlight="affiliation-4" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">4.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">CICTE Research Center</span><span itemprop="name" class="affiliation__name">Universidad de las Fuerzas Armadas ESPE</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Sangolquí</span><span itemprop="addressCountry" class="affiliation__country">Ecuador</span></span></span></li><li class="affiliation" data-test="affiliation-5" data-affiliation-highlight="affiliation-5" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">5.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">GREC Research Group</span><span itemprop="name" class="affiliation__name">Universitat Politècnica de Catalunya</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Barcelona</span><span itemprop="addressCountry" class="affiliation__country">Spain</span></span></span></li><li class="affiliation" data-test="affiliation-6" data-affiliation-highlight="affiliation-6" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">6.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Universitat de Barcelona</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Barcelona</span><span itemprop="addressCountry" class="affiliation__country">Spain</span></span></span></li><li class="affiliation" data-test="affiliation-7" data-affiliation-highlight="affiliation-7" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">7.</span><span class="affiliation__item"><span itemprop="department" class="affiliation__department">PLM Research Center</span><span itemprop="name" class="affiliation__name">Purdue University</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">West Lafayette</span><span itemprop="addressCountry" class="affiliation__country">USA</span></span></span></li><li class="affiliation" data-test="affiliation-8" data-affiliation-highlight="affiliation-8" itemscope="" itemtype="http://schema.org/Organization"><span class="affiliation__count">8.</span><span class="affiliation__item"><span itemprop="name" class="affiliation__name">Universidad Politécnica de Madrid</span><span itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress" class="affiliation__address"><span itemprop="addressRegion" class="affiliation__city">Madrid</span><span itemprop="addressCountry" class="affiliation__country">Spain</span></span></span></li></ol></div></section></div>
+                        </article>
+                        <aside class="section section--collapsible" id="AboutThisContent">
+    <h2 class="section__heading" id="aboutcontent">About this paper</h2>
+    <div class="section__content bibliographic-information">
+        
+        <div class="crossmark__adjacent">
+            <dl class="citation-info u-highlight-target u-mb-16" id="citeas" tabindex="-1">
+    <dt class="test-cite-heading">
+        Cite this paper as:
+    </dt>
+    <dd id="citethis-text">Aguilar W.G. et al. (2017) Real-Time Detection and Simulation of Abnormal Crowd Behavior. In: De Paolis L., Bourdot P., Mongelli A. (eds) Augmented Reality, Virtual Reality, and Computer Graphics. AVR 2017. Lecture Notes in Computer Science, vol 10325. Springer, Cham</dd>
+</dl>
+                <ul class="bibliographic-information__list bibliographic-information__list--inline">
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">First Online</span>
+            <span class="bibliographic-information__value u-overflow-wrap">08 June 2017</span>
+        </li>
+        <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">DOI</span>
+            <span class="bibliographic-information__value u-overflow-wrap" id="doi-url">https://doi.org/10.1007/978-3-319-60928-7_36</span>
+        </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Publisher Name</span>
+                <span class="bibliographic-information__value" id="publisher-name">Springer, Cham</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Print ISBN</span>
+                <span class="bibliographic-information__value" id="print-isbn">978-3-319-60927-0</span>
+            </li>
+            <li class="bibliographic-information__item">
+                <span class="bibliographic-information__title">Online ISBN</span>
+                <span class="bibliographic-information__value" id="electronic-isbn">978-3-319-60928-7</span>
+            </li>
+
+                <li class="bibliographic-information__item">
+            <span class="bibliographic-information__title">eBook Packages</span>
+                <span class="bibliographic-information__value"><a id="ebook-package" href="/search?facet-content-type&#x3D;%22Book%22&amp;package&#x3D;11645&amp;facet-start-year&#x3D;2017&amp;facet-end-year&#x3D;2017">Computer Science</a></span>
+        </li>
+
+    </ul>
+
+            <ul class="bibliographic-information__list">
+            <li class="bibliographic-information__item">
+                <a id="about-book" href="//www.springer.com/978-3-319-60927-0?wt_mc&#x3D;ThirdParty.SpringerLink.3.EPR653.About_eBook"
+                   class="gtm-about-this" >Buy this book on publisher's site</a>
+            </li>
+        <li class="bibliographic-information__item">
+            <a id="reprintsandpermissions-link" target="_blank" rel="noopener" href="https://s100.copyright.com/AppDispatchServlet?publisherName&#x3D;SpringerNature&amp;orderBeanReset&#x3D;true&amp;orderSource&#x3D;SpringerLink&amp;copyright&#x3D;Springer+International+Publishing+AG&amp;author&#x3D;Wilbert+G.+Aguilar%2C+Marco+A.+Luna%2C+Julio+F.+Moya+et+al&amp;contentID&#x3D;10.1007%2F978-3-319-60928-7_36&amp;endPage&#x3D;428&amp;publicationDate&#x3D;2017&amp;startPage&#x3D;420&amp;title&#x3D;Real-Time+Detection+and+Simulation+of+Abnormal+Crowd+Behavior&amp;imprint&#x3D;Springer+International+Publishing+AG&amp;publication&#x3D;eBook" title="Visit RightsLink for information about reusing this paper">Reprints and Permissions</a>
+        </li>
+</ul>
+
+
+
+        </div>
+      
+      
+          
+    </div>
+</aside>
+
+                        <div class="section section--collapsible uptodate-recommendations gtm-recommendations">
+    <h2 class="uptodate-recommendations__title section__heading gtm-recommendations__title" id="uptodaterecommendations">Personalised recommendations</h2>
+    <div class="section__content">
+        <div class="uptodate-recommendations__container">
+             <link rel="uptodate-inline" href="/springerlink-static/1060237170/css/recommendations.css"/>
+        </div>
+    </div>
+</div>
+                                <div id="doubleclick-native-ad" data-component="SpringerLink.GoogleAds" data-namespace="native"></div>
+
+                        
+
+
+
+    <div class="sticky-banner sticky-banner--buybox u-interface u-hide" data-component="SpringerLink.StickyBanner" data-namespace="hasLink">
+        <div class="sticky-banner__container">
+                <div class="citations" data-component="SV.Dropdown" data-namespace="citationsSticky">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">paper</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" class="gtm-cite-dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .RIS file" class="gtm-export-citation" data-gtmlabel="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .ENW file" class="gtm-export-citation" data-gtmlabel="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .BIB file" class="gtm-export-citation" data-gtmlabel="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                
+
+
+
+                <div class="sticky-banner__buybox-link sticky-banner__buybox-link--sticky">
+        <a href="#buy" class="gtm-buybox-anchor">
+            Buy options
+        </a>
+    </div>
+
+        </div>
+    </div>
+
+
+                    </div>
+                    <aside class="main-sidebar-right u-interface">
+                        <div data-role="sticky-wrapper">
+                            <div class="main-sidebar-right__content u-composite-layer" data-component="SpringerLink.StickySidebar">
+                                <div class="article-actions" id="article-actions">
+                                    <h2 class="u-screenreader-only" aria-hidden="true">Actions</h2>
+
+                                        <div id="buy">
+                                            
+
+<style type="text/css">
+    .buybox {
+        margin: 16px 0 0;
+        position: relative;
+    }
+    .buybox {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+    }
+    .buybox {
+        zoom: 1;
+    }
+    .buybox:after,
+    .buybox:before {
+        content: '';
+        display: table;
+    }
+    .buybox:after {
+        clear: both;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__header {
+        border: 1px solid #b3b3b3;
+        border-bottom: 0;
+        padding: 8px;
+        position: relative;
+        background-color: #f2f2f2;
+    }
+    .buybox__header .buybox__login {
+        font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        font-size: 1.4rem;
+        letter-spacing: .017em;
+        display: inline-block;
+        line-height: 1.2;
+        padding: 0;
+    }
+    .buybox__header .buybox__login:before {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: perspective(1px) translateY(-50%);
+        transform: perspective(1px) translateY(-50%);
+        content: '\A';
+        width: 34px;
+        height: 34px;
+        left: 10px;
+    }
+    /*---------------------------------*/
+    .buybox .buybox__body {
+        padding: 0;
+        padding-bottom: 16px;
+        position: relative;
+        text-align: center;
+        background-color: #fcfcfc;
+        border: 1px solid #b3b3b3;
+    }
+    /******/
+    .buybox__body .buybox__section {
+        padding: 16px 12px 0 12px;
+        text-align: left;
+    }
+    .buybox__section .buybox__buttons {
+        text-align: center;
+        width: 100%;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__body {
+        background-color: transparent;
+    }
+    .buybox.mycopy__buybox .buybox__section .buybox__buttons {
+        border-top: 0;
+        padding-top: 0;
+    }
+    /******/
+    .buybox__section:nth-child(2) .buybox__buttons {
+        border-top: 1px solid #b3b3b3;
+        padding-top: 20px;
+    }
+    .buybox__buttons .buybox__buy-button {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 5px;
+        padding: 6px 12px;
+        max-width: 180px
+    }
+    .buybox__buttons .buybox__price {
+        white-space: nowrap;
+        text-align: center;
+        font-size: larger;
+        padding-top: 6px;
+    }
+    .buybox__section .buybox__meta {
+        letter-spacing: 0;
+        padding-top: 12px;
+    }
+    .buybox__section .buybox__meta:only-of-type {
+        padding-top: 0;
+        position: relative;
+        bottom: 6px;
+    }
+    /********** mycopy buybox specific **********/
+    .buybox.mycopy__buybox .buybox__section .buybox__meta {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    /******/
+    .buybox__meta .buybox__product-title {
+        display: inline;
+        font-weight: bold;
+    }
+    .buybox__meta .buybox__list {
+        line-height: 1.3;
+    }
+    .buybox__meta .buybox__list li {
+        position: relative;
+        padding-left: 1em;
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .buybox__meta .buybox__list li:before {
+        font-size: 1em;
+        content: '\2022';
+        float: left;
+        position: relative;
+        top: .1em;
+        font-family: serif;
+        font-weight: 600;
+        text-align: center;
+        line-height: inherit;
+        color: #666;
+        width: auto;
+        margin-left: -1em;
+    }
+    .buybox__meta .buybox__list li:last-child {
+        margin-bottom: 0;
+    }
+    /********** chapter buybox specific **********/
+    .buybox.chapter__buybox .buybox__section .buybox__meta {
+        border-top: 1px solid #d3d3d3;
+        padding-top: 12px;
+    }
+    .buybox.chapter__buybox .buybox__section .buybox__buy-ebook {
+        margin-bottom: 12px;
+    }
+    /******/
+    /*---------------------------------*/
+    .buybox .buybox__footer {
+        border: 1px solid #b3b3b3;
+        border-top: 0;
+        padding: 8px;
+        position: relative;
+        border-style: dashed;
+        line-height: 1.3;
+    }
+    .buybox .deepdyve {
+        display: none;
+        text-align: left;
+        margin: 8px 12px 0 12px;
+        padding-top: 5px;
+        border-top: 1px solid #d3d3d3;
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (min-width: 460px) and (max-width: 1074px) {
+        .buybox__body .buybox__section {
+            display: inline-block;
+            vertical-align: top;
+            padding: 12px 12px;
+            padding-bottom: 0;
+            text-align: left;
+            width: 48%;
+        }
+        .buybox__body .buybox__section {
+            padding-top: 16px;
+            padding-left: 0;
+        }
+        .buybox__section:nth-of-type(2) .buybox__meta {
+            border-left: 1px solid #d3d3d3;
+            padding-left: 28px;
+        }
+        .buybox__section:nth-of-type(2) .buybox__buttons {
+            border-top: 0;
+            padding-top: 0;
+            padding-left: 16px ;
+        }
+        .buybox__buttons .buybox__buy-button {
+        }
+        /********** article buybox specific **********/
+        .buybox.article__buybox .buybox__section:nth-of-type(2) {
+            margin-top: 16px;
+            padding-top: 0;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta {
+            margin-top: 40px;
+            padding-top: 0;
+            padding-bottom: 45px;
+        }
+        .buybox.article__buybox .buybox__section:nth-of-type(2) .buybox__meta:only-of-type {
+            margin-top: 8px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__section:first-child {
+            width: 69%;
+            padding-left: 12px ;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            width: 29%;
+        }
+        /********** chapter buybox specific **********/
+        .buybox.chapter__buybox .buybox__body {
+            display: flex;
+            align-items: stretch;
+            padding-left: 12px;
+            padding-top: 12px;
+        }
+        .buybox.chapter__buybox .buybox__section .buybox__meta {
+            display: flex;
+            align-items: center;
+            height: 100%;
+            border-top: 0;
+            padding-top: 0;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+    @media screen and (max-width: 459px) {
+        /********** mycopy buybox specific **********/
+        .buybox.mycopy__buybox .buybox__body {
+            padding-bottom: 5px;
+        }
+        .buybox.mycopy__buybox .buybox__section:last-child {
+            text-align: center;
+            width: 100%;
+        }
+        .buybox.mycopy__buybox .buybox__buttons {
+            display: inline-block;
+            width: 150px ;
+        }
+        /******/
+    }
+    /*-----------------------------------------------------------------*/
+</style>
+
+<div class="buybox chapter__buybox" data-webtrekkTrackId="196033507532344" data-webtrekkContentId="SL-chapter">
+    <div class="buybox__header">
+        <span class="buybox__login">Log in to check access</span>
+    </div>
+    <div class="buybox__body">
+        <div class="buybox__section">
+            <div class="buybox__buttons">
+            
+                <div class="buybox__buy-ebook">
+                    <a
+                        data-product-id="978-3-319-60928-7_Augmented Reality, Virtual Reality"
+                        data-tracking-category="ebook"
+                        data-eCommerceParam_11="chapter-page"
+                        href="https://checkout.springer.com/checkout/add?utm_source=springerlink&amp;utm_medium=sl-buybox&amp;utm_campaign=ChapterPage_EBook&isbn=978-3-319-60928-7"
+                        class="buybox__buy-button c-button c-button--blue"
+                        data-gtm="buybox__buy-button-ebook">
+                        <span class="buybox__buy" data-gtm="buybox__buy-button">Buy eBook</span>
+                    </a>
+                    <div class="buybox__price" data-gtm="buybox__buy-button">
+                        EUR&nbsp;67.82
+                    </div>
+                </div>
+            
+            
+                <form class="buybox__form" action="https://checkout.springer.com/checkout/add?utm_source=springerlink&amp;utm_medium=sl-buybox&amp;utm_campaign=ChapterPage_Chapter" method="POST">
+                    
+                        <input type="hidden" name="type" value="chapter"/>
+                    
+                        <input type="hidden" name="doi" value="10.1007/978-3-319-60928-7_36"/>
+                    
+                        <input type="hidden" name="isxn" value="978-3-319-60928-7"/>
+                    
+                        <input type="hidden" name="contenttitle" value="Real-Time Detection and Simulation of Abnormal Crowd Behavior"/>
+                    
+                        <input type="hidden" name="copyrightyear" value="2017"/>
+                    
+                        <input type="hidden" name="year" value="2017"/>
+                    
+                        <input type="hidden" name="authors" value="Wilbert G. Aguilar, et al."/>
+                    
+                        <input type="hidden" name="title" value="Augmented Reality, Virtual Reality, and Computer Graphics"/>
+                    
+                        <input type="hidden" name="mac" value="5078db3b7bf319c4af5c55eae423e5aa"/>
+                    
+                        <input type="hidden" name="returnurl" value="https://link.springer.com/chapter/10.1007%2F978-3-319-60928-7_36"/>
+                    
+                    <button
+                    data-product-id="10.1007/978-3-319-60928-7_36_Real-Time Detection and Simulation"
+                    data-tracking-category="ppv"
+                    data-eCommerceParam_11="chapter-page"
+                    type="submit"
+                    class="buybox__buy-button c-button c-button--blue"
+                    data-gtm="buybox__buy-button">
+                        <span class="buybox__buy" data-gtm="buybox__buy-button">Buy paper (PDF)</span>
+                    </button>
+                    <div class="buybox__price" data-gtm="buybox__buy-button">
+                        EUR&nbsp;24.95
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        
+        <div class="buybox__section">
+            <div class="buybox__meta">
+                <ul class="buybox__list">
+                    <li>Instant download</li>
+                    <li>Readable on all devices</li>
+                    <li>Own it forever</li>
+                    <li>Local sales tax included if applicable</li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    <div class="buybox__footer">
+        <a class="js-buybox__inst-sub-link" data-gtm="buybox__inst-sub-link" href="http://www.springer.com/gp/shop/subscriptions?utm_source=springerlink&utm_medium=sl-buybox&utm_campaign=ChapterPage_Institutional-customers">
+            Learn about institutional subscriptions</a>
+    </div>
+
+    
+
+</div>
+
+<script>
+(function () {
+    var forEach = function (array, callback, scope) {
+        for (var i = 0; i < array.length; i++) {
+            callback.call(scope, i, array[i]);
+        }
+    };
+
+    var trackDomain = 'springergmbh01.webtrekk.net';
+    var domain = 'link.springer.com';
+    var loadEventSent = false;
+
+    var buyboxRoot = document.getElementsByClassName('buybox')[0];
+    var webtrekkTrackId = buyboxRoot.getAttribute('data-webtrekkTrackId');
+    var webtrekkContentId = buyboxRoot.getAttribute('data-webtrekkContentId');
+
+    function LinkTrack(webtrekkTrackId) {
+        if (!webtrekkTrackId) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: 'springer_com.buybox',
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function Track(product, webtrekkTrackId, eCommerceParam_11, action) {
+        if (!product) return;
+
+        var data = {
+            trackDomain: trackDomain,
+            trackId: webtrekkTrackId,
+            domain: domain,
+            contentId: webtrekkContentId,
+            product: product.id,
+            productStatus: action,
+            productCategory: {
+                1: product.trackingCategory
+            },
+            customEcommerceParameter: {
+                9: domain,
+                11: eCommerceParam_11
+            },
+            customSessionParameter: {
+                2: getBusinessPartnerIds()
+            }
+        };
+
+        if (!window.webtrekkV3 && console) {
+            console.log('No webtrekk found.', data);
+            return;
+        }
+
+        return new webtrekkV3(data);
+    }
+
+    function track(trackingConfig) {
+        return function(payload) {
+            if (!trackingConfig) return
+            if (payload) {
+                trackingConfig.sendinfo(payload)
+            } else {
+                trackingConfig.sendinfo()
+            }
+            return true
+        }
+    }
+
+    function trackAddToCart(trackingConfig) {
+        return track(trackingConfig)()
+    }
+
+    function trackOnLoad(trackingConfig) {
+        if (loadEventSent) return;
+        loadEventSent = true;
+        return track(trackingConfig)()
+    }
+
+    function trackSubscription(trackingConfig) {
+        return track(trackingConfig)({linkId: 'inst. subscription info'})
+    }
+
+    function trackDeepDyve(trackingConfig) {
+        return track(trackingConfig)({linkId: 'Rent Article'})
+    }
+
+    function getBusinessPartnerIds() {
+        var businessPartnerIDs = [];
+        try {
+            var ids = window.dataLayer[0]["user"]["license"]["businessPartnerID"];
+            if(ids && ids.length) businessPartnerIDs = ids;
+        } catch(e) {}
+        return businessPartnerIDs.join(";");
+    }
+
+    var bindClickLinkHandle = function (link) {
+        if (!link) return;
+
+        link.addEventListener('click', function (event) {
+            trackSubscription(LinkTrack(webtrekkTrackId));
+        });
+    };
+
+    var bindLoadButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        window.addEventListener('load', function (event) {
+            trackOnLoad(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'view'));
+        });
+    };
+
+    var bindClickButtonHandle = function (button) {
+        if (!button) return;
+
+        var productId = button.getAttribute('data-product-id');
+        var trackingCategory = button.getAttribute('data-tracking-category');
+        var eCommerceParam_11 = button.getAttribute('data-eCommerceParam_11');
+
+        button.addEventListener('click', function (event) {
+            trackAddToCart(Track({
+                id: productId,
+                trackingCategory: trackingCategory
+            }, webtrekkTrackId, eCommerceParam_11, 'add'));
+        });
+    };
+
+    var buyButtons = document.getElementsByClassName('buybox__buy-button');
+    forEach(buyButtons, function (index, button) {
+        bindLoadButtonHandle(button);
+        bindClickButtonHandle(button);
+    });
+
+    var sublinks = document.getElementsByClassName('js-buybox__inst-sub-link');
+    forEach(sublinks, function (index, link) {
+        bindClickLinkHandle(link);
+    });
+
+    var bindDeepDyveClickHandle = function (link) {
+        if (!link) return
+
+        link.addEventListener('click', function (event) {
+            trackDeepDyve(LinkTrack(webtrekkTrackId))
+        })
+    }
+
+    var deepDyveLink = document.getElementById('deepdyve-link')
+    bindDeepDyveClickHandle(deepDyveLink)
+})();
+</script>
+
+                                        </div>
+
+                                    <div class="u-js-hide u-js-show-two-col">
+                                        
+        
+
+
+
+
+                                            <div class="citations" data-component="SV.Dropdown" data-namespace="citations">
+        <h3 class="u-h4" data-role="button-dropdown__title">
+    <span>Cite</span>
+    <span class="hide-text-small">paper</span>
+</h3>
+<ul class="citations__content" data-role="button-dropdown__content">
+    <li>
+        <a href="#citeas" class="gtm-cite-dropdown">How to cite?</a>
+    </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;refman&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .RIS file" class="gtm-export-citation" data-gtmlabel="RIS">
+                <span class="citations__extension" data-gtmlabel="RIS">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .RIS
+                </span>
+                <span class="citations__types">
+                        <span>
+                            Papers
+                        </span>
+                        <span>
+                            Reference Manager
+                        </span>
+                        <span>
+                            RefWorks
+                        </span>
+                        <span>
+                            Zotero
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;endnote&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .ENW file" class="gtm-export-citation" data-gtmlabel="ENW">
+                <span class="citations__extension" data-gtmlabel="ENW">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .ENW
+                </span>
+                <span class="citations__types">
+                        <span>
+                            EndNote
+                        </span>
+                </span>
+            </a>
+        </li>
+        <li>
+            <a href="//citation-needed.springer.com/v2/references/10.1007/978-3-319-60928-7_36?format&#x3D;bibtex&amp;flavour&#x3D;citation"
+               title="Download this paper&#39;s citation as a .BIB file" class="gtm-export-citation" data-gtmlabel="BIB">
+                <span class="citations__extension" data-gtmlabel="BIB">
+                    <svg class="u-vertical-align-absolute" width="12" height="14" viewBox="0 0 12 14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7.269v-6.271c0-.551-.448-.998-1-.998-.556 0-1 .447-1 .998v6.271l-1.5-1.547c-.375-.387-1.01-.397-1.401-.006l.016-.016c-.397.397-.391 1.025-.001 1.416l3.178 3.178c.392.392 1.024.391 1.415 0l3.178-3.178c.392-.392.391-1.025-.001-1.416l.016.016c-.397-.397-1.018-.388-1.401.006l-1.5 1.547zm-7 5.731c0-.552.456-1 1.002-1h9.995c.554 0 1.002.444 1.002 1 0 .552-.456 1-1.002 1h-9.995c-.554 0-1.002-.444-1.002-1z" fill="#0176C3"/></svg>
+                    .BIB
+                </span>
+                <span class="citations__types">
+                        <span>
+                            BibTeX
+                        </span>
+                        <span>
+                            JabRef
+                        </span>
+                        <span>
+                            Mendeley
+                        </span>
+                </span>
+            </a>
+        </li>
+</ul>
+    </div>
+
+                                            
+
+
+
+                                    </div>
+                                </div>
+                                
+
+                            </div>
+                                <div class="skyscraper-ad u-hide" data-component="SpringerLink.GoogleAds" data-namespace="skyscraper">
+        <div class="skyscraper-ad__wrapper">
+            <p class="skyscraper-ad__label">Advertisement</p>
+            <button class="skyscraper-ad__hide" title="Hide this advertisement">Hide</button>
+            <div id="doubleclick-ad" class="skyscraper-ad__ad"></div>
+        </div>
+    </div>
+
+                        </div>
+                    </aside>
+                </div>
+            </main>
+                <footer class="footer u-interface">
+        <div class="footer__aside-wrapper">
+            <div class="footer__content">
+                <div class="footer__aside">
+                    <p class="footer__strapline">Over 10 million scientific documents at your fingertips</p>
+                                <div class="footer__edition" data-component="SV.EditionSwitcher">
+                                    <h3 class="u-hide" data-role="button-dropdown__title" data-btn-text="Switch between Academic &#38; Corporate Edition">Switch Edition</h3>
+                                    <ul data-role="button-dropdown__content">
+                                        <li  class="selected"><a href="/siteEdition/link?previousUrl=/chapter/10.1007%2F978-3-319-60928-7_36&id=siteedition-academic-link" id="siteedition-academic-link">Academic Edition</a></li>
+                                        <li ><a href="/siteEdition/rd?previousUrl=/chapter/10.1007%2F978-3-319-60928-7_36&id=siteedition-corporate-link" id="siteedition-corporate-link">Corporate Edition</a></li>
+                                    </ul>
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__content">
+            <ul class="footer__nav">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/impressum">Impressum</a>
+                </li>
+                <li>
+                    <a href="/termsandconditions">Legal information</a>
+                </li>
+                <li>
+                    <a href="/privacystatement">Privacy statement</a>
+                </li>
+                <li>
+                    <a href="/cookiepolicy">How we use cookies</a>
+                </li>
+                <li>
+                    <a href="/accessibility" class="gtm-footer-accessibility">Accessibility</a>
+                </li>
+                <li>
+                    <a id="contactus-footer-link" href="/contactus">Contact us</a>
+                </li>
+            </ul>
+            <a class="parent-logo"
+               target="_blank" rel="noopener"
+               href="//www.springernature.com"
+               title="Go to Springer Nature">
+                <span class="u-screenreader-only">Springer Nature</span>
+                <svg width="125" height="12" focusable="false" aria-hidden="true">
+                    <image width="125" height="12"
+                           src="/springerlink-static/1060237170/images/png/springernature.png"
+                           xmlns:xlink="http://www.w3.org/1999/xlink"
+                           xlink:href="/springerlink-static/1060237170/images/svg/springernature.svg">
+                    </image>
+                </svg>
+            </a>
+
+            <p class="footer__copyright">&copy; 2017 Springer Nature Switzerland AG. Part of <a target="_blank" rel="noopener" href="//www.springernature.com">Springer Nature</a>.</p>
+                <p class="footer__user-access-info">
+                    <span>Not logged in</span>
+                    <span>Bangladesh Academy of Sciences (2000503839) - Bangladesh University of Engineering and Technology (BUET) (3000182891) - Bangladesh UGC Consortium (3000995085)</span>
+                    <span>103.94.135.219</span>
+                </p>
+        </div>
+    </footer>
+
+        </div>
+          <script type="text/javascript">
+    (function() {
+        document.addEventListener('readystatechange', function () {
+            if (document.readyState === 'complete') {
+                var linkEl = document.querySelector('.js-ctm');
+                if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+                    var scriptMathJax = document.createElement('script');
+                    scriptMathJax.async = true;
+                    scriptMathJax.src = '/springerlink-static/1060237170/js/mathJax.js';
+                    var s0 = document.getElementsByTagName('script')[0];
+                    s0.parentNode.insertBefore(scriptMathJax, s0);
+                }
+            }
+        });
+    })();
+</script>
+
+<script type="text/javascript">
+    (function() {
+        var linkEl = document.querySelector('.js-ctm');
+        var scriptsList = [];
+        var polyfillFeatures = '';
+
+        window.SpringerLink = window.SpringerLink || {};
+        window.SpringerLink.staticLocation = '/springerlink-static/1060237170';
+        window.eventTrackerInstance = null;
+
+        if (window.matchMedia && window.matchMedia(linkEl.media).matches) {
+            (function(h){h.className = h.className.replace('no-js', 'js')})(document.documentElement);
+
+            polyfillFeatures = 'default,fetch,Promise,Object.setPrototypeOf,Object.entries,Number.isInteger,MutationObserver,startsWith,Array.prototype.includes,Array.from,IntersectionObserver';
+
+            scriptsList = [
+                'https://cdn.polyfill.io/v2/polyfill.min.js?features=' + polyfillFeatures + '&flags=gated',
+                window.SpringerLink.staticLocation + '/js/main.js'
+            ];
+
+            scriptsList.forEach(function(script) {
+                var tag = document.createElement('script');
+                tag.async = false;
+                tag.src = script;
+
+                document.body.appendChild(tag);
+            });
+        }
+    })();
+</script>
+
+
+    <script type="text/javascript" id="googletag-push">
+        
+            var adSlot = '270604982/springerlink/book/chapter';
+        
+
+        var definedSlots = [
+                {slot: [728, 90], containerName: 'doubleclick-leaderboard-ad'},
+                {slot: [160, 600], containerName: 'doubleclick-ad'},
+            {slot: [2, 2], containerName: 'doubleclick-native-ad'}
+        ];
+    </script>
+
+
+        
+        <span id="chat-widget" class="u-hide"></span>
+        
+    </body>
+</html>
